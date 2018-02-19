@@ -28,7 +28,7 @@ body {
   }
 
   #box2 {
-    content: 30px 250px;
+    width: 250px;
     border-style: solid none;
     border-width: 1px;
     margin: 12px;
