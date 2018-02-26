@@ -26,7 +26,7 @@ nav {
     box-shadow: 3px 3px 3px 3px lightsteelblue;
 }
 
-#focus img {
+#focus.img {
     max-width: 100%; 
 }
 
