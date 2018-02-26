@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, lightblue, darkblue)
+}
+
+header {
+    background-color: darkblue;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+nav {
+    text-align: center;
+    margin: 0;
+    padding: 7px;
+}
+
+#box {
+    background-color: white;   
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 3px 3px 3px 3px lightsteelblue;
+}
+
+#focus img {
+    max-height: auto;
+    max-width: 100%; 
+}
+
+#sub {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#heading {
+    text-align: left;
+    padding-left: 10px;
+}
+
+#copyright {
+    text-align: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+#content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
