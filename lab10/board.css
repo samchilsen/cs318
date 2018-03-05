@@ -11,7 +11,7 @@ body {
     position: relative;
     height: 300px;
     width: 300px;
-    box-shadow: -5px 5px darkgray;
+    box-shadow: -5px 5px gray;
     display: inline-block;      
 }
 
