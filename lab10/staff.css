@@ -10,7 +10,7 @@
     height: 200px;
     display: inline-block;
     background-size: 100%;
-    box-shadow: 5px 5px 50px lightgreen ;
+    box-shadow: 5px 5px 50px lightgreen;
     margin: 50px;
 }
 #Ander{
@@ -28,11 +28,11 @@
 }
 
 .photo:hover{
-    width:180px;
-    height:180px;
+    width: 180px;
+    height: 180px;
     box-shadow: 5px 5px 50px black;
     top: 25px;
-    left:25px;
+    left: 25px;
 }
 .name{
     position: absolute;
@@ -41,7 +41,7 @@
     color: burlywood;
     text-shadow: 2px 2px black;
     text-align: center;
-    left:0;
-    right:0;
-    bottom:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
