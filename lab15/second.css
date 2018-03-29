@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;   
+}
+
+body {
+    background-image: url(http://www.dundjinni.com/forums/uploads/Ravenbow/49E_BrickRound70_CG_bg-a.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    color: white;
+}
+
+p {
+    padding-left: 5px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+#fire {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+}
+
+ul {
+    padding-right: 15px;
+}
+
+#quicklinks {
+    float: right;
+    clear: both;
+    padding: 3px;
+    background-color: gold;
+    box-shadow: 0 0 20px 2px gold;
+    border-style: dashed;
+    border-color: orange;
+}
+
+#first {
+    clear: left;
+}
+
+#marker {
+    border-left-color: gold;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
