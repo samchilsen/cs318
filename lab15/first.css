@@ -26,9 +26,16 @@ p {
     right: 50px;
 }
 
+@media (max-width: 600px) {
+    .image {
+      margin-bottom: 15px;
+      width: 100%;  
+    }
+}
+
 .image {
-    max-height: 250px;
-    max-width: 450px;
+    height: auto;
+    width: 400px;
     padding: 5px, 10px;
     margin: 5px;
     position: relative;
@@ -41,21 +48,17 @@ img {
 }
 
 #img1 {
-    float: left;
-    clear: both;   
+    float: left;  
 }
     
 #img2 {
     float: right;
-    clear: both;
 }
     
 #img3 {
     float: left;
-    clear: both;
     }
     
 #img4 {
     float: right;
-    clear: both;
 }

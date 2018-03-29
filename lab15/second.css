@@ -52,7 +52,7 @@ ul {
     clear: left;
 }
 
-#marker {
+.marker {
     border-left-color: gold;
     border-left-style: solid;
     border-left-width: 5px;
