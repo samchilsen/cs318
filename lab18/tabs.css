@@ -40,6 +40,7 @@
 
 #panel0 {
     display: block;
+    height: 25px;
 }
 
 #tabA:focus ~ #panel1 {
