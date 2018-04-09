@@ -1,3 +1,55 @@
 * {
     box-sizing: border-box;
 }
+
+.tab {
+    display: inline-block;
+    background-color: burlywood;
+    width: 100px;
+    padding: 5px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    outline: none;
+}
+
+.tab:hover {
+    cursor: pointer;
+}
+
+.tab:focus {
+    background-color: sienna;
+}  
+
+#panel0 {
+    background-color: burlywood;
+}
+
+#parent {
+    position: relative;
+    display: inline-block;
+}
+
+.panel {
+    position: absolute;
+    left: auto;
+    height: auto;
+    background-color: sienna;
+    width: 308px;
+    display: none;
+}
+
+#panel0 {
+    display: block;
+}
+
+#tabA:focus ~ #panel1 {
+    display: block; 
+}
+
+#tabB:focus ~ #panel2 {
+    display: block; 
+}
+
+#tabC:focus ~ #panel3 {
+    display: block; 
+}
