@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    width: 325px;
+    text-align: right;
+    margin: auto;
+    background-color: gray;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+label {
+    display: block;
+    padding: 3px;    
+}
+
+textarea {
+    padding: 5px;
+    display: block;
+    margin: auto;
+    width: 95%;
+    height: 175px;
+    align-content: left;
+}
+
+input {
+    margin: 5px;
+}
+
+#send {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    width: 50px;
+}
+
