@@ -23,8 +23,7 @@ textarea {
     display: block;
     margin: auto;
     width: 95%;
-    height: 175px;
-    align-content: left;
+    height: 175px; 
 }
 
 input {
