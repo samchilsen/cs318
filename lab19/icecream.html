@@ -23,7 +23,7 @@
             What Flavor?
         </div>
         <div class="right">
-            <select form="icecream" multiple>
+            <select form="icecream" size="4">
                 <option value="chocolate">Chocolate</option>
                 <option value="strawberry">Strawberry</option>
                 <option value="vanilla">Vanilla</option>
@@ -34,25 +34,23 @@
             In What?
         </div>
         <div class="right">
-            <select form="icecream" multiple>
+            <select form="icecream" size="3">
                 <option value="waffle">Waffle</option>
                 <option value="sugar">Sugar</option>
                 <option value="dish">Dish</option>
             </select>
         </div>
-        <label>
-            <div class="title">
-                Sprinkles?
-            </div>
-            <div class="right">
-                <input type="checkbox" name="sprinkles" id="sprinkles">
-        </label>
+        <div class="title">
+            Sprinkles?
+        </div>
+        <div class="right">
+            <input type="checkbox" name="sprinkles" id="sprinkles">
         </div>
         <div class="title">
             How messy are you?
         </div>
-        <div class="slidecontainer right">
-            <input type="range" min="0" max="3" value="1">
+        <div class="slidecontainer right" id="slider">
+            <input type="range" min="0" max="3" value="1" id="range">
         </div>
         <div class="right">
             <input type="submit" name="send" id="send" value="Order">

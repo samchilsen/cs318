@@ -4,7 +4,6 @@
 
 form {
     width: 500px;
-    text-align: right;
     margin: auto;
     background-color: lightblue;
     border-radius: 8px;
@@ -18,10 +17,12 @@ form {
     clear: both;
     text-align: right;
     width: 50%;
+    padding-top: 15px;
 }
 
 .right {
     display: block;
+    padding-top: 10px;
 }
 
 select {
@@ -52,6 +53,17 @@ h1 {
 
 #sprinkles {
     position: relative;
-    left: 0;
-    top: 0;
+    left: 5px;
+    top: 5px;
+}
+
+#slider {
+    position: relative;
+    left: 5px;
+    top: 8px;
+}
+
+#send {
+    position: relative;
+    margin-top: 10px;
 }
