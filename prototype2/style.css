@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    position: fixed;
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 250px;
+    text-align: center;
+    z-index: 1;
+}
+
+#headertext {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 80pt;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    top: 20%;
+}
+
+.tab {
+    position: relative;
+    display: inline-block;
+    background-color: darkblue;
+    width: 150px;
+    padding: 5px;
+    border-radius: 7px;
+    outline: none;
+    text-align: center;
+    margin: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    box-shadow: 2px 2px 2px 2px dimgray;    
+}
+
+#navbar a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.tab:hover {
+    cursor: pointer;
+}
+
+#navbar {
+    position: relative;
+    top: 130px;
+}
+
+footer {
+    position: relative;
+    display: block;
+    clear: both;
+    padding-top: 25px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#menu {
+    display: inline-block;
+    position: absolute;
+    right: 0;    
+    list-style: none;
+    color: white;
+    height: 100%;
+    padding: 10px 0;
+    width: 75px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 48pt;
+}
+
+#menu ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    font-size: 16pt;
+}
+
+#menu:hover ul {
+    display: block;
+    list-style: none;
+    left: 0;
+    padding: 0;
+    top: 65px;
+    text-align: left;
+}
+
+#menu ul li {
+    padding: 5px;
+    text-align: left;
+    background-color: darkblue;
+    border-bottom: 1px solid white;
+    box-shadow: 0px 5px 10px dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    width: 125px;
+}
+
+#menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+header #menu {
+    display: none;
+}
+
+@media(max-width: 875px){
+    #navbar{
+        display: none;
+    }
+ 
+     header #menu {
+       display: inline-block;
+       top: 225px;
+       margin-right: 75px;
+       color: darkblue;
+    }
+
+    #headertext {
+        top: 0;
+    }
+}
+
+#profile {
+    display: block;
+    float: left;
+    clear: both;
+    margin-left: 35px;
+    margin-right: 100px;
+    border: 3px solid black;  
+    max-width: 300px;
+    height: auto; 
+}
+
+h1 {
+    position: relative;
+    display: block;
+    font-family: "Bookman Old Style";
+    color: rgb(184, 5, 5);
+    font-size: 30pt;
+    margin-top: 400px;
+    margin-left: 35px;
+    margin-right: auto;    
+}
+
+p {
+    position: relative;
+    display: block;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 13pt;
+    margin-right: 50px;  
+    margin-left: 35px;  
+}
+
+ul {
+    position: relative;
+    display: block;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 13pt;
+    margin-right: 50px; 
+}
+
+li ul {
+    margin-left: 10px;
+}
+
+#UWEC {
+    display: block;
+    float: left;
+    clear: both;
+    margin-left: 40px;
+    margin-right: 75px;
+    margin-top: 20px;
+    border: 3px solid black;
+    max-width: 250px;
+    height: auto;
+}
+
+#UWMan {
+    display: block;
+    float: left;
+    clear: both;
+    margin-left: 40px;
+    margin-right: 75px;
+    border: 1px solid black;
+    max-width: 250px;
+    height: auto;
+}
+
+h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.school {
+    margin: 0;
+}
+
+h3 {
+    margin-left: 35px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 14pt;
+    font-style: italic;
+    margin: 0;
+}
+
+.resume {
+    display: inline-block;
+}
+
+#larsen {
+    display: block;
+    float: left;
+    clear: both;
+    margin-left: 40px;
+    margin-right: 75px;
+    margin-top: 50px;
+    border: 3px solid black;
+    max-width: 250px;
+    height: auto;
+    
+}
+
+#museum {
+    display: block;
+    float: left;
+    clear: both;
+    margin-left: 40px;
+    margin-right: 75px;
+    margin-top: 40px;
+    border: 3px solid black;
+    max-width: 250px;
+    height: auto;
+    
+}
+
+.date {
+    font-style: italic;
+    font-size: 14pt;
+}
+
+.title {
+    margin-left: 35px;
+}
+
+.about_img {
+    max-height: 200px;
+    width: auto;
+    padding: 2px;
+}
+
+#farleft {
+    margin-left: 35px;
+}
+
+@font-face {
+    font-family: Signature;
+    src: url(Jamscript_TRIAL.ttf);
+}
+
+#signature {
+    font-family: Signature;
+    font-size: 28pt;
+    margin-bottom: 0;
+}
+
+#contact {
+    margin-top: 0;
+}
+
+.desc {
+    padding-top: 25px;
+}
+    
