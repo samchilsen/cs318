@@ -4,6 +4,7 @@
 
 body {
     background-color: antiquewhite;
+    margin-right: 75px;
 }
 
 header {
@@ -43,6 +44,10 @@ header {
     box-shadow: 2px 2px 2px 2px dimgray;    
 }
 
+.tab:hover {
+    background-color: darkred;
+}
+
 #navbar a:link {
     color: white;
     text-decoration: none;
@@ -73,15 +78,21 @@ footer {
 #menu {
     display: inline-block;
     position: absolute;
-    right: 0;    
+    top: 225px;
+    right: 10px;    
     list-style: none;
-    color: white;
+    color: darkblue;
     height: 100%;
     padding: 10px 0;
     width: 75px;
     text-align: center;
     cursor: pointer;
     font-size: 48pt;
+}
+
+#menu div {
+    display: block;
+    margin-right: 100px;
 }
 
 #menu ul {
@@ -122,6 +133,10 @@ header #menu {
     display: none;
 }
 
+#menulist li:hover {
+    background-color: darkred;
+}
+
 @media(max-width: 875px){
     #navbar{
         display: none;
@@ -129,22 +144,25 @@ header #menu {
  
      header #menu {
        display: inline-block;
-       top: 225px;
-       margin-right: 75px;
-       color: darkblue;
     }
 
     #headertext {
         top: 0;
     }
+
+    .resume {
+        margin-left: 35px;
+        margin-top: 15px;
+    }
 }
 
 #profile {
-    display: block;
+    display: inline-block;
     float: left;
     clear: both;
     margin-left: 35px;
     margin-right: 100px;
+    margin-bottom: 15px;
     border: 3px solid black;  
     max-width: 300px;
     height: auto; 
@@ -159,6 +177,11 @@ h1 {
     margin-top: 400px;
     margin-left: 35px;
     margin-right: auto;    
+}
+
+.resume_img {
+    float: left;
+    clear: both;
 }
 
 p {
@@ -184,8 +207,6 @@ li ul {
 
 #UWEC {
     display: block;
-    float: left;
-    clear: both;
     margin-left: 40px;
     margin-right: 75px;
     margin-top: 20px;
@@ -196,8 +217,6 @@ li ul {
 
 #UWMan {
     display: block;
-    float: left;
-    clear: both;
     margin-left: 40px;
     margin-right: 75px;
     border: 1px solid black;
@@ -230,8 +249,6 @@ h3 {
 
 #larsen {
     display: block;
-    float: left;
-    clear: both;
     margin-left: 40px;
     margin-right: 75px;
     margin-top: 50px;
@@ -243,8 +260,6 @@ h3 {
 
 #museum {
     display: block;
-    float: left;
-    clear: both;
     margin-left: 40px;
     margin-right: 75px;
     margin-top: 40px;
@@ -263,14 +278,18 @@ h3 {
     margin-left: 35px;
 }
 
+#img_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 35px;
+}
+
 .about_img {
     max-height: 200px;
     width: auto;
-    padding: 2px;
-}
-
-#farleft {
-    margin-left: 35px;
+    padding-right: 20px;
+    margin-top: 5px;
 }
 
 @font-face {
@@ -287,8 +306,3 @@ h3 {
 #contact {
     margin-top: 0;
 }
-
-.desc {
-    padding-top: 25px;
-}
-    
