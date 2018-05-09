@@ -72,6 +72,7 @@ footer {
     display: block;
     clear: both;
     padding-top: 25px;
+    padding-left: 35px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
@@ -210,7 +211,7 @@ li ul {
     margin-left: 10px;
 }
 
-#UWEC {
+#uwec {
     display: block;
     margin-left: 40px;
     margin-right: 75px;
@@ -220,7 +221,7 @@ li ul {
     height: auto;
 }
 
-#UWMan {
+#uwman {
     display: block;
     margin-left: 40px;
     margin-right: 75px;
